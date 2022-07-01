@@ -1,6 +1,4 @@
 import { Container, Row, Col, Overlay } from "react-bootstrap";
-import { Animated } from "react-animated-css";
-import contactImg from "../../img/contact.svg";
 import "./Contact.scss";
 import { Files } from "react-bootstrap-icons";
 
@@ -11,16 +9,10 @@ export default function Contact() {
       <Container>
         <Row className="align-items-center">
           <Col size={11} md={5}>
-            <img
-              //className={isVisible ? "animate__animated animate__zoomIn" : ""}
-              src={contactImg}
-              alt="Contact Us"
-            />
+            <img src="img/contact.svg" alt="Contact Us" />
           </Col>
           <Col size={12} md={6}>
-            <div
-            //className={isVisible ? "animate__animated animate__fadeIn" : ""}
-            >
+            <div>
               <h1>Get In Touch</h1>
               <Container className="contact-container">
                 <Profile />

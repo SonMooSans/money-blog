@@ -1,9 +1,5 @@
 import { Row, Col, Container } from "react-bootstrap";
-import {
-  ArrowRightCircleFill,
-  ArrowReturnRight,
-  Github,
-} from "react-bootstrap-icons";
+import { ArrowRightCircleFill, ArrowReturnRight } from "react-bootstrap-icons";
 import "./Projects.scss";
 
 const projects = [

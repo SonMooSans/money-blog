@@ -1,6 +1,5 @@
 import { Nav, Navbar, Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
-import logo from "../img/logo.jpg";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import { Animated } from "react-animated-css";
@@ -69,7 +68,7 @@ function Introduce() {
           <Col xs={12} md={6} xl={5} className="p-4">
             <Animated animationIn="zoomIn">
               <img
-                src={logo}
+                src="img/logo.jpg"
                 alt="Header Img"
                 className="logo animate__animated animate__pulse animate__infinite animate__slow"
               />

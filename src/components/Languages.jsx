@@ -2,31 +2,26 @@ import { Container } from "react-bootstrap";
 import "./Languages.scss";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import js from "../../img/lang/js.svg";
-import ts from "../../img/lang/ts.svg";
-import kotlin from "../../img/lang/kotlin.svg";
-import py from "../../img/lang/py.svg";
-import rust from "../../img/lang/rust.png";
 
 const languages = [
   {
-    img: js,
+    img: "img/lang/js.svg",
     name: "JavaScript",
   },
   {
-    img: ts,
+    img: "img/lang/ts.svg",
     name: "TypeScript",
   },
   {
-    img: kotlin,
+    img: "img/lang/kotlin.svg",
     name: "Kotlin",
   },
   {
-    img: rust,
+    img: "img/lang/rust.png",
     name: "Rust",
   },
   {
-    img: py,
+    img: "img/lang/py.svg",
     name: "Python",
   },
 ];
